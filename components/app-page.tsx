@@ -6,9 +6,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowRight, ChevronRight, ChevronLeft } from 'lucide-react'
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
-import { Card, CardContent } from "@/components/ui/card"
+import { Input as _Input } from "@/components/ui/input"
+import { Textarea as _Textarea } from "@/components/ui/textarea"
+import { Card as _Card, CardContent as _CardContent  } from "@/components/ui/card"
 
 const messages = [
   "Beyond RESEARCH: I provide a comprehensive understanding of the landscape, combining user, market, and technology insights.",
